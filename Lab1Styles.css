@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    background-color: #f9fafc;
+}
+@media only screen and (min-width: 768px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+}
+}
+.headerlink{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: auto;
+    }
+    @media only screen and (min-width: 768px) {
+        .headerlink{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-top: 10px;
+        white-space: nowrap;
+        height: 40px;  
+        line-height: 40px;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            padding-top: 90px;
+            padding-bottom: 30%;
+        }
+        .theCall{
+            width:50%;
+            margin-right: auto;
+
+        }
+        .circleContainer{
+            width: 300px;
+            height:300px;
+        }
+        #circle1{
+            width: 210px;
+            height:210px;
+            border-radius: 100%;
+            position:absolute;
+            z-index:0;
+            background-color: rgba(247, 136, 167, 0.6);
+            opacity: 50%;
+            margin-left: 20px;
+
+        }
+        #circle2{
+            width: 110px;
+            height:110px;
+            border-radius: 100%;
+            position: absolute;
+            z-index: 1;
+            margin-top: 40px;
+            margin-left: 190px;
+            background-color: rgba(207, 130, 213, 0.6);
+            opacity: 50%;
+            
+        }
+        #circle3{
+            width: 180px;
+            height:180px;
+            border-radius: 100%;
+            position:absolute;
+            z-index: 2;
+            margin-top: 110px;
+            margin-left: 120px;
+            background-color: rgba(247, 193, 162, 0.7);
+            opacity: 50%;
+        }
+        button{
+            width:40%;
+        }
+        #hire{
+            margin-top: 3px;
+        }
+    }
+
+p{
+    color: #000;
+}
+#headerText{
+    width:fit-content;
+}
+a{
+    color: #69696a;
+    text-decoration: none;
+    padding: 3px;
+}
+button{
+    background-color: black ;
+    color: #FFF;
+    border-radius: 90px;
+    border: black;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
+#text{
+    border-left: solid #69696a 4px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    font-size:14px;
+    color: #69696a;
+    ;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(247, 193, 162, 0.7);
+    text-indent: 20px;
+    opacity: 100%;
+}
+.footerlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+    }
